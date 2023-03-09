@@ -1,0 +1,42 @@
+Analog Clock
+This is a simple analog clock made using HTML, CSS, and JavaScript. The clock features a sleek design with a dark background and a large clock face in the center. The clock face displays the time using traditional clock numbers and has two moving clock hands to indicate the hour and minute.
+
+Features
+Displays current time in a traditional analog clock format
+Sleek, modern design with dark background and large clock face
+Clock hands move smoothly and accurately
+Simple and easy-to-use interface
+Written using HTML, CSS, and JavaScript
+Installation
+To use the clock on your own website, simply copy the index.html, style.css, and script.js files into your project directory. Then, link the style.css and script.js files in your HTML file.
+
+html
+Copy code
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+Usage
+To use the clock, simply load the index.html file in your web browser. The clock will automatically display the current time, and the clock hands will update in real-time.
+
+Customization
+The clock can be easily customized by modifying the style.css file. For example, you can change the background color of the clock by modifying the background property:
+
+css
+Copy code
+.container {
+    background: #2f363e;
+}
+You can also change the size and color of the clock hands:
+
+css
+Copy code
+.hand {
+    background: white;
+    width: 6px;
+    height: 50%;
+    transform-origin: bottom;
+    position: absolute;
+}
+Credits
+This clock was created by Evan Collins.
